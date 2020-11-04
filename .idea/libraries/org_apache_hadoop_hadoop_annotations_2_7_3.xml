@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.apache.hadoop:hadoop-annotations:2.7.3" type="repository">
+    <properties maven-id="org.apache.hadoop:hadoop-annotations:2.7.3" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-annotations/2.7.3/hadoop-annotations-2.7.3.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/jdk/Contents/Home/lib/tools.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
