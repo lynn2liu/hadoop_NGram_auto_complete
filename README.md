@@ -1,6 +1,9 @@
 # hadoop_NGram_auto_complete
-##Implementation
-###1. set up MAMP for mac
+==============
+Implementation
+
+**1. set up MAMP for mac**
+
 set up Mysql
 Note: Start MySQL server before run MySQL
 ```
@@ -23,7 +26,8 @@ SHOW VARIABLES WHERE Variable_name = 'port';
 ```
 
 
-###2. Set up Hadoop and HDFS
+**2. Set up Hadoop and HDFS**
+
 Use Docker to set up the Hadoop environment with 1 namenode (master machine) and 2 datanodes (slave machines).
 
 Create Hadoop network.
@@ -50,7 +54,8 @@ hdfs dfs -put mysql-connector-java-*.jar /mysql/ #hdfs path to mysql-connector*
 ```
 
 
-###3. set up parameters
+**3. set up parameters**
+
 In the container, find the auto-complete folder. It should be /root/src/auto-complete. Set input path for HDFS.
 
 ```
@@ -67,7 +72,7 @@ Upload input files into HDFS.
 hdfs dfs -put bookList/* input/
 ```
 
-###4.Run Auto-complete program
+**4.Run Auto-complete program**
 
 ```
 hadoop com.sun.tools.javac.Main *.java
