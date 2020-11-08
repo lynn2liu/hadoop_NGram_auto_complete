@@ -59,7 +59,7 @@ public class Driver {
         job2.setJarByClass(Driver.class);
 
 
-        //job2.addArchiveToClassPath(new Path("/mysql/mysql-connector-java-5.1.39-bin.jar"));
+        job2.addArchiveToClassPath(new Path("/mysql/mysql-connector-java-5.1.39-bin.jar"));
 
         job2.setMapOutputKeyClass(Text.class);
         job2.setMapOutputValueClass(Text.class);
