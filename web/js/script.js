@@ -1,5 +1,5 @@
 // auto completion: this function will be executed every time we change the text
-function autocomplete() {
+function autocomplet() {
     var min_length = 0;
     var keyword = $('#country_id').val();
     if (keyword >= min_length) {
