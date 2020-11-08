@@ -1,5 +1,5 @@
 # hadoop_NGram_auto_complete
-==============
+
 Implementation
 
 **1. set up MAMP for mac**
